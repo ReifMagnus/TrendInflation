@@ -15,7 +15,7 @@ spec.hmax      = 6;               % forecast horizon
 spec.sv        = 'RW';            % t, RW, or normal
 spec.tvp       = 0;
 
-data_in = readtable('Daten_Inflationsprognose.xlsx','Sheet','data_EA_extended');
+data_in = readtable('Data_inflation.xlsx','Sheet','data_EA_extended');
 
 load_model_extended_EA
 
