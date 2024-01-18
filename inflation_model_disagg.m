@@ -18,7 +18,7 @@ spec.forecast  = 1;
 
 load_model_disagg_DE
 
-data_in = readtable('Daten_Inflationsprognose.xlsx','Sheet','data_DE_disagg');
+data_in = readtable('Datea_inflation.xlsx','Sheet','data_DE_disagg');
 data_in = data_in(1:154,:);
 
 % save data if necessaray
